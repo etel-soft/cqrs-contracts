@@ -1,5 +1,5 @@
 {
-    "name": "etel-soft/cqrs-contracts",
+    "name": "etel/cqrs-contracts",
     "type": "library",
     "homepage": "https://etel.dev/component/cqrs/contracts",
     "description": "A set of abstractions related to commands/queries/events message buses and CQRS pattern.",
