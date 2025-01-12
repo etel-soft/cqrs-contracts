@@ -1,6 +1,6 @@
 <?php
 
-return new PhpCsFixer\Config()
+return (new PhpCsFixer\Config())
     ->setFinder(
         finder: PhpCsFixer\Finder::create()
             ->files()
@@ -11,7 +11,7 @@ return new PhpCsFixer\Config()
     ->setRiskyAllowed(isRiskyAllowed: true)
     ->setRules(rules: [
         '@PSR12' => true,
-        '@PHP84Migration' => true,
+        '@PHP83Migration' => true,
         '@PhpCsFixer' => true,
         'array_syntax' => ['syntax' => 'short'],
         'blank_line_before_statement' => [
