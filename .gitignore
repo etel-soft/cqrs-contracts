@@ -1,0 +1,17 @@
+###> etel-soft/cqrs-contracts ###
+/vendor/
+/composer.lock
+###< dinecat/cqrs ###
+
+###> friendsofphp/php-cs-fixer ###
+/.php-cs-fixer.php
+/.php-cs-fixer.cache
+###< friendsofphp/php-cs-fixer ###
+
+###> phpstan/phpstan ###
+/phpstan.neon
+###< phpstan/phpstan ###
+
+###> custom dev rules ###
+/.idea
+###< custom dev rules ###

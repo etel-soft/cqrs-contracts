@@ -1,0 +1,27 @@
+{
+    "name": "etel-soft/cqrs-contracts",
+    "type": "library",
+    "homepage": "https://etel.dev/component/cqrs/contracts",
+    "description": "A set of abstractions related to commands/queries/events message buses and CQRS pattern.",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Mykola Zyk",
+            "email": "mykola@etel.dev"
+        }
+    ],
+    "require": {
+        "php": "^8.4"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "phpstan/phpstan": "^2.0",
+        "roave/security-advisories": "dev-latest"
+    },
+    "autoload": {
+        "psr-4": {
+            "Etel\\Contracts\\CQRS\\": "src"
+        }
+    }
+}

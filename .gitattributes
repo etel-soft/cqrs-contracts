@@ -1,0 +1,3 @@
+/.git* export-ignore
+/.php-cs-fixer.dist.php export-ignore
+/phpstan.neon.dist export-ignore
